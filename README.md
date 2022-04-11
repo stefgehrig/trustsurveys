@@ -1,3 +1,5 @@
+
+
 # trustsurveys
 
 For decades, trust in others has been measured across societies around the world via the survey question:
@@ -8,7 +10,7 @@ The proportion of people in a country responding that *"Most people can be trust
 
 While the most prominent survey routinely asking above question in representative samples is the [World Values Survey (WVS)](https://www.worldvaluessurvey.org/), many regional surveys exist which also use the instrument and also aim for representativeness via probability sampling. Among those are the [European Values Survey (EVS)](https://europeanvaluesstudy.eu/), [Afrobarometer](https://afrobarometer.org/), [Arabbarometer](https://www.arabbarometer.org/), [Latinobarómetro](https://www.latinobarometro.org/) and [Asianbarometer](http://www.asianbarometer.org/). Nevertheless, results from these different surveys are not available in a centralized manner. 
 
-This repository has gathered data on generalized trust from all waves of all of above surveys - provided that the survey wave included the instrument, of course. That way, an aggregated table with countries' generalized trust estimates for different surveys and waves can be provided. Note that the respective original sources of data have their own rules and procedures for data usage, which need to be consulted before making any use of data for whatever purpose.
+This repository has gathered data on generalized trust from all waves of all of above surveys - provided that the survey wave included the instrument, of course. That way, an aggregated table with countries' generalized trust estimates for different surveys and waves can be provided. {color:Red}Note that the respective original owners of the data have their own rules and procedures for data usage, which need to be consulted before making any use of the data for whatever purpose.
 
 ### Data integration
 
