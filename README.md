@@ -1,6 +1,6 @@
 # trustsurveys
 
-For decades, trust in others has been measured across societies of the world via the survey question:
+For decades, trust in others has been measured across societies around the world via the survey question:
 
 **"Generally speaking, would you say that most people can be trusted or that you can't be too careful in dealing with people?"**
 
