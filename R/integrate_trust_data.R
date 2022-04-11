@@ -196,15 +196,16 @@ df_latinobaro2018 <- as_tibble(read.dta13("data/latinobaro/Latinobarometro_2018_
 df_latinobaro2020 <- as_tibble(read.dta13("data/latinobaro/Latinobarometro_2020_Eng_Stata_v1_0.dta"))
 
 surveyvar   <- c("Latinobarometro")
-wavevars    <- c(1995:1998, 2000:2011, 2013, 2015:2018, 2020)
-countryvars <- c("pais", "idenpa", "idenpa",	"idenpa",	"idenpa",	"idenpa",	"idenpa",	"idenpa",
-                 "idenpa",	"idenpa",	"idenpa",	"idenpa",	"idenpa",	"idenpa",	"idenpa",	"idenpa",
-                 "idenpa",	"idenpa",	"idenpa",	"IDENPA", "idenpa")
-trustvars   <- c("p12", "sp21", "sp20",	"P17ST",	"p42st",	"p29st",	"p20st",
-                 "p43st",	"p14st",	"p45st",	"p23st",	"p21wvsst",	"p58st",	"P55ST",	"P25ST",
-                 "P29STGBS",	"P15STGBS",	"P12STGBS",	"P13STGBS",	"P11STGBS", "p9stgbs")
-weightvars  <- c("wt", "wt", "pondera",	"wt",	"wt",	"wt",	"wt",	"wt", "wt", 	"wt",	"wt",	"wt",	"wt",	"wt",	"wt",
-                 "wt",	"wt",	"wt",	"wt",	"WT", "wt")
+wavevars    <- c(1996:1998, 2000:2011, 2013, 2015:2018, 2020)
+countryvars <- c("pais", "idenpa", "idenpa", "idenpa", "idenpa", "idenpa", "idenpa", "idenpa",
+                 "idenpa", "idenpa", "idenpa", "idenpa", "idenpa", "idenpa", "idenpa", "idenpa",
+                 "idenpa", "idenpa", "idenpa", "IDENPA", "idenpa")
+trustvars   <- c("p12", "sp21", "sp20", "P17ST", "p42st", "p29st", "p20st", "p43st",	
+                 "p14st", "p45st", "p23st", "p21wvsst", "p58st", "P55ST", "P25ST",
+                 "P29STGBS", "P15STGBS", "P12STGBS", "P13STGBS", "P11STGBS", "p9stgbs")
+weightvars  <- c("wt", "wt", "pondera", "wt", "wt", "wt", "wt", "wt",  
+                 "wt", "wt", "wt", "wt", "wt", "wt", "wt",
+                 "wt", "wt", "wt", "wt", "WT", "wt")
 
 # merge in long table
 df_latinobaro <- map2_dfr(list(df_latinobaro1996,
