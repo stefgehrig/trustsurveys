@@ -30,6 +30,6 @@ The integrated data can be found in the file `output/df_trust.csv`. The table ha
 
 Here, `country.name` refers to the country, `wave` to the wave of the survey, `survey` to the name of the survey, `n` to the number of respondents sampeld in the respective country and survey wave, `p_response` to the proportion of non-missing responses to the generalized trust question among all `n` respondents, `trust` to the estimated proportion of people who think that *"most prople can be trusted"* and `years` to the time frame of the survey wave. For observations from the Global Preference Survey (`survey == "GPS"`), the number in the `trust` column refers to the standardized trust score as calculated by the original authors of the survey--without any rescaling, it is **not** directly comparable to the other values in the same column.
 
-The table contains n = 1,067 observations from n = 146 countries.
+The table contains 1,067 observations from 146 countries.
 
 <sup>1</sup><sub>The trust measure is based on an item which asks respondents whether they assume that other people only have the best intentions on a scale from 1 to 10, see Falk, A., Becker, A., Dohmen, T. J., Huffman, D., & Sunde, U. (2016). *The Preference Survey Module: A Validated Instrument for Measuring Risk, Time, and Social Preferences* (SSRN Scholarly Paper No. 2725874). Social Science Research Network. https://doi.org/10.2139/ssrn.2725874
