@@ -6,7 +6,7 @@ For decades, trust in others has been measured across societies around the world
 
 **"Generally speaking, would you say that most people can be trusted or that you can't be too careful in dealing with people?"**
 
-The proportion of people in a country responding that *"Most people can be trusted"* has been used as a measure of *generalized*, or *impersonal* trust, and has been related to all sorts of economic, political, health or social indicators on the country level.
+The proportion of people in a country responding that *"Most people can be trusted"* has been used as a measure of *generalized*, or *impersonal* trust, and has been related to all sorts of economic, political, health, social or historical characteristics on the country level.
 
 While the most prominent survey routinely asking above question in representative samples is the [World Values Survey (WVS)](https://www.worldvaluessurvey.org/), many regional surveys exist which also use the instrument and also aim for representativeness via probability sampling. Among those are the [European Values Survey (EVS)](https://europeanvaluesstudy.eu/), [Afrobarometer](https://afrobarometer.org/), [Arabbarometer](https://www.arabbarometer.org/), [Latinobarómetro](https://www.latinobarometro.org/) and [Asianbarometer](http://www.asianbarometer.org/). Nevertheless, results from these different surveys are not available in a centralized manner. 
 
