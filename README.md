@@ -30,7 +30,7 @@ The integrated data can be found in the file `output/df_trust.csv`. The table ha
 | Mali            | 1    | Afrobarometer | 2089 | 0.9918...  | 0.1277... | 1999-2001
 | ...
 
-Here, `country.name` refers to the country, `wave` to the wave of the survey, `survey` to the name of the survey, `n` to the number of respondents sampeld in the respective country and survey wave, `p_response` to the proportion of non-missing responses to the generalized trust question among all `n` respondents, `trust` to the estimated proportion of people who think that *"most prople can be trusted"* and `years` to the time frame of the survey wave. For observations from the Global Preference Survey (`survey == "GPS"`), the number in the `trust` column refers to the standardized trust score as calculated by the original authors of the survey - without any rescaling, it is **not** directly comparable to the other values in the same column.
+Here, `country.name` refers to the country, `wave` to the wave of the survey, `survey` to the name of the survey, `n` to the number of respondents sampled in the respective country and survey wave, `p_response` to the proportion of non-missing responses to the generalized trust question among all `n` respondents, `trust` to the estimated proportion of people who think that *"most prople can be trusted"* and `years` to the time frame of the survey wave. For observations from the Global Preference Survey (`survey == "GPS"`), the value in the `trust` column refers to the standardized trust score as calculated by the original authors of the survey - without any rescaling, it is **not** directly comparable to the other values in the same column.
 
 The table contains 1,067 observations from 146 countries.
 
