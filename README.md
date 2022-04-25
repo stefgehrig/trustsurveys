@@ -34,4 +34,10 @@ Here, `country.name` refers to the country, `wave` to the wave of the survey, `s
 
 The table contains 1,067 observations from 146 countries.
 
+As an example, one can quickly plot estimates over time from different surveys for Brazil (code in `R/example_plot.R`):
+
+<p align="center">
+<img src="https://github.com/stefgehrig/trustsurveys/blob/main/output/example_plot.png" width="600">
+</p>
+
 <sup>1</sup><sub>The trust measure is based on an item which asks respondents whether they assume that other people only have the best intentions on a scale from 1 to 10, see Falk, A., Becker, A., Dohmen, T. J., Huffman, D., & Sunde, U. (2016). *The Preference Survey Module: A Validated Instrument for Measuring Risk, Time, and Social Preferences* (SSRN Scholarly Paper No. 2725874). Social Science Research Network. https://doi.org/10.2139/ssrn.2725874
