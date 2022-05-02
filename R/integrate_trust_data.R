@@ -271,7 +271,7 @@ df_latinobaro <- df_latinobaro %>%
 #######################
 #### WVS all waves ####
 #######################
-df_wvs <- readRDS("data/wvs_evs/F00011411_WVS_Trend_1981_2020_R_rds_v2_0/WVS_Trend_v2_0.rds")
+df_wvs <- readRDS("data/wvs_evs/F00011935-WVS_TimeSeries_1981_2022_Rds_v3_0/WVS_TimeSeries_1981_2022_Rds_v3_0.rds")
 
 # clean variables
 df_wvs <- df_wvs %>% 
@@ -285,7 +285,7 @@ df_wvs <- df_wvs %>%
          survey = "WVS",
          trust = ifelse(A165 < 0, NA, A165)) %>% 
   select(country.name,
-         wave = S002,
+         wave = S002VS,
          survey,
          trust,
          weight = S017) %>% 
@@ -386,7 +386,7 @@ df_trust <- bind_rows(df_arabbaro,
     survey == "WVS" & wave == 4 ~ "1999-2004",
     survey == "WVS" & wave == 5 ~ "2005-2009",
     survey == "WVS" & wave == 6 ~ "2010-2014",
-    survey == "WVS" & wave == 7 ~ "2017-2020",
+    survey == "WVS" & wave == 7 ~ "2017-2021",
     survey == "EVS" & wave == 1 ~ "1981-1983",
     survey == "EVS" & wave == 2 ~ "1990-1993",
     survey == "EVS" & wave == 3 ~ "1999-2001",

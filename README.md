@@ -14,7 +14,7 @@ This repository has gathered data on generalized trust from all waves of all of 
 
 ### Data integration
 
-The most recent data sets from all survey websites (see above) have been downloaded between January and February 2022. Data sets were then integrated via the code in the R script `R/integrate_trust_data.R`, which cleans and harmonizes the data sets and returns a single table with country-level scores of generalized trust by estimating the proportion of people who think that *"most prople can be trusted"*, using weighting factors provided by the survey operators. These weights aim at compensating small deviations from the targeted demographic quota in the realized sample. Observations with missing values (e.g., not asked, response declined or the reponse *"don't know"*) were removed - but the proportion of missings is documented in the resulting table (see below). Note that the original raw data to rerun the script cannot be provided in this repository.
+The most recent data sets from all survey websites (see above) have been downloaded between January and May 2022 (detailed versions and names of the data files can be seen in the code). Data sets were then integrated via the code in the R script `R/integrate_trust_data.R`, which cleans and harmonizes the data sets and returns a single table with country-level scores of generalized trust by estimating the proportion of people who think that *"most prople can be trusted"*, using weighting factors provided by the survey operators. These weights aim at compensating small deviations from the targeted demographic quota in the realized sample. Observations with missing values (e.g., not asked, response declined or the reponse *"don't know"*) were removed - but the proportion of missings is documented in the resulting table (see below). Note that the original raw data to rerun the script cannot be provided in this repository.
 
 Data from the [Global Preference Survey](https://www.briq-institute.org/global-preferences/home), which measured generalized trust with a different survey item,<sup>1</sup> was also included.
 
@@ -32,7 +32,7 @@ The integrated data can be found in the file `output/df_trust.csv`. The table ha
 
 Here, `country.name` refers to the country, `wave` to the wave of the survey, `survey` to the name of the survey, `n` to the number of respondents sampled in the respective country and survey wave, `p_response` to the proportion of non-missing responses to the generalized trust question among all `n` respondents, `trust` to the estimated proportion of people who think that *"most prople can be trusted"* and `years` to the time frame of the survey wave. For observations from the Global Preference Survey (`survey == "GPS"`), the value in the `trust` column refers to the standardized trust score as calculated by the original authors of the survey - without any rescaling, it is **not** directly comparable to the other values in the same column.
 
-The table contains 1,067 observations from 146 countries.
+The table contains 1,080 observations from 146 countries.
 
 As an example, one can quickly plot estimates over time from different surveys for Brazil (code in `R/example_plot.R`):
 
