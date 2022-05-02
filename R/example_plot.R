@@ -22,4 +22,4 @@ p <- df %>%
        subtitle = "Brazil") + 
   scale_color_manual(values = c("#66c2a5", "#8da0cb"))
 
-ggsave("output/example_plot.png", p, width = 2400, height = 1500, dpi = 330, units = "px")
+ggsave("output/example_plot.png", p, width = 2400, height = 1500, dpi = 335, units = "px")
